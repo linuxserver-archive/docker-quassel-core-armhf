@@ -11,7 +11,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 * [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # lsioarmhf/quassel-core
-[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/quassel-core.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/quassel-core.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-quassel)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-quassel/)
+[![](https://images.microbadger.com/badges/image/lsioarmhf/quassel-core.svg)](http://microbadger.com/images/lsioarmhf/quassel-core "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/quassel-core.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/quassel-core.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-quassel)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-quassel/)
 [hub]: https://hub.docker.com/r/lsioarmhf/quassel-core/
 
 [Quassel IRC][quassurl] is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core.
