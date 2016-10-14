@@ -11,7 +11,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 * [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # lsioarmhf/quassel-core
-[![](https://images.microbadger.com/badges/image/lsioarmhf/quassel-core.svg)](http://microbadger.com/images/lsioarmhf/quassel-core "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/quassel-core.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/quassel-core.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-quassel)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-quassel/)
+[![](https://images.microbadger.com/badges/version/lsioarmhf/quassel-core.svg)](https://microbadger.com/images/lsioarmhf/quassel-core "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/quassel-core.svg)](http://microbadger.com/images/lsioarmhf/quassel-core "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/quassel-core.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/quassel-core.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-quassel)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-quassel/)
 [hub]: https://hub.docker.com/r/lsioarmhf/quassel-core/
 
 [Quassel IRC][quassurl] is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core.
@@ -69,7 +69,17 @@ You're now connected to IRC. Let's add you to our [IRC](http://www.linuxserver.i
 
 * Monitor the logs of the container in realtime `docker logs -f quassel-core`.
 
+* container version number 
+
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' quassel-core`
+
+* image version number
+
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' lsioarmhf/quassel-core`
+
+
 ## Versions
 
++ **14-10-16:** Add version layer information.
 + **23.09.16:** Use QT5 dependencies (thanks bauerj).
 + **13.09.16:** Initial Release.
