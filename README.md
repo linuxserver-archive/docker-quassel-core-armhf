@@ -86,6 +86,6 @@ You're now connected to IRC. Let's add you to our [IRC](http://www.linuxserver.i
 
 ## Versions
 
-+ **14-10-16:** Add version layer information.
++ **14.10.16:** Add version layer information.
 + **23.09.16:** Use QT5 dependencies (thanks bauerj).
 + **13.09.16:** Initial Release.
