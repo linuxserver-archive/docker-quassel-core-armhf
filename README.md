@@ -47,7 +47,7 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 * `-e PGID` for for GroupID - see below for explanation
 * `-e PUID` for for UserID - see below for explanation
 
-It is based on ubuntu xenial with s6 overlay, for shell access whilst the container is running do `docker exec -it quassel-core /bin/bash`.
+It is based on alpine linux with s6 overlay, for shell access whilst the container is running do `docker exec -it quassel-core /bin/bash`.
 
 ### User / Group Identifiers
 
@@ -86,6 +86,7 @@ You're now connected to IRC. Let's add you to our [IRC](http://www.linuxserver.i
 
 ## Versions
 
++ **23.11.16:** Rebase to alpine:edge.
 + **14.10.16:** Add version layer information.
 + **23.09.16:** Use QT5 dependencies (thanks bauerj).
 + **13.09.16:** Initial Release.
