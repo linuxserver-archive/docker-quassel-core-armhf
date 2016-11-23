@@ -1,6 +1,11 @@
 FROM lsiobase/alpine.armhf:edge
 MAINTAINER sparklyballs
 
+# set version label
+ARG BUILD_DATE
+ARG VERSION
+LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+
 # build variables
 ARG QUASSEL_VERSION="0.12.4"
 
