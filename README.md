@@ -86,6 +86,7 @@ You're now connected to IRC. Let's add you to our [IRC](http://www.linuxserver.i
 
 ## Versions
 
++ **24.12.18:** Upgrade to Quassel `0.13.0` See [here.](https://quassel-irc.org/node/134)
 + **30.07.18:** Rebase to alpine:3.8 and use buildstage.
 + **03.01.18:** Rebase to alpine 3.7, Deprecate cpu_core routine lack of scaling.
 + **26.11.17:** Use cpu core counting routine to speed up build time.
