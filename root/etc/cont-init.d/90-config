@@ -1,0 +1,21 @@
+#!/usr/bin/with-contenv bash
+
+echo '
+******************************************************
+******************************************************
+*                                                    *
+*                                                    *
+*          This image has been deprecated            *
+*                                                    *
+*           Use the multi-arch images at             *
+*                                                    *
+*             linuxserver/quassel-core               *
+*                                                    *
+*  https://hub.docker.com/r/linuxserver/quassel-core *
+*                                                    *
+* https://github.com/linuxserver/docker-quassel-core *
+*                                                    *
+*                                                    *
+*                                                    *
+******************************************************
+******************************************************'
